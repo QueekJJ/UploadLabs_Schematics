@@ -4,8 +4,11 @@
 Schematics will be posted based on what I consider major milestone. There might be times I sync my save to mobile as there is ads for tokens (tokens are needed for essentials to properly optimise builds)
 
 ## Index
-- (Virus Scanner + Quarantine)[#virus-scanner-+-quarantine]
-- (Checksum Verifier + Reconstructor)[#checksum-verifier-+-Reconstructor]
+[Portal 0](#portal-0)
+- [Portal 0](#portal-0)
+  - [Index](#index)
+  - [Virus Scanner + Quarantine](#virus-scanner--quarantine)
+  - [Checksum Verifier + Reconstructor](#checksum-verifier--reconstructor)
 
 ## Virus Scanner + Quarantine
 Full setup includes crypto miner, although I don’t plan to use them later on in the game.
@@ -31,3 +34,5 @@ Notes:
 - Research: `Image Downloader` and `Data Refiner` should be turned off when `Data Labs` have an excess amount of its respective file stored up in its system.
 
 ![Preview](/Portal_0/Portal0_imgs/Reconstructor_unlocked.png)
+
+[def]: #virus-scanner-+-quarantine
