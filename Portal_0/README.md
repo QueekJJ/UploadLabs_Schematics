@@ -4,11 +4,11 @@
 Schematics will be posted based on what I consider major milestone. There might be times I sync my save to mobile as there is ads for tokens (tokens are needed for essentials to properly optimise builds)
 
 ## Index
-[Portal 0](#portal-0)
 - [Portal 0](#portal-0)
   - [Index](#index)
   - [Virus Scanner + Quarantine](#virus-scanner--quarantine)
   - [Checksum Verifier + Reconstructor](#checksum-verifier--reconstructor)
+  - [Enchanters + Hacking](#enchanters--hacking)
 
 ## Virus Scanner + Quarantine
 Full setup includes crypto miner, although I don’t plan to use them later on in the game.
@@ -36,3 +36,14 @@ Notes:
 ![Preview](/Portal_0/Portal0_imgs/Reconstructor_unlocked.png)
 
 [def]: #virus-scanner-+-quarantine
+
+## Enchanters + Hacking
+Schematics:
+- [1.1 Money](/Portal_0/portal0_schematics/1.1_Money)
+- [1.0 Hack](/Portal_0/portal0_schematics/1.0_Hack)
+
+![Preview Money](/Portal_0/Portal0_imgs/1.1%20Money.png)
+![Preview Hack](/Portal_0/Portal0_imgs/1.0%20Hack.png)
+
+Notes:
+- Tested with and without `Compressor`, and both achieve the exact same efficiency. Maybe can conclude `Compressor` is worth if the total of the processing not including `Enchanters` uses at least half the clock speed of what the `compressors` needs. Very uncertain, will need further testing with more components.

@@ -1,0 +1,175 @@
+[schematic]
+
+windows=[{
+"color": 4,
+"container_data": {},
+"custom_icon": "hacker",
+"custom_name": "1.0 Hack",
+"filename": "window_group.tscn",
+"name": "group4",
+"position": Vector2(3400, 6050),
+"size": Vector2(1950, 700),
+"window": "group"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "9b7a7011a4f4",
+"outputs_id": Array[String]([]),
+"resource": "boost_hack",
+"variation": 0
+},
+"PanelContainer/MainContainer/Experience": {
+"id": "a5245f7b9ffd",
+"outputs_id": Array[String]([]),
+"resource": "hack_experience",
+"variation": 0
+},
+"PanelContainer/MainContainer/HackPower": {
+"id": "0b50e2618840",
+"outputs_id": Array[String](["fd76b156f8e0"]),
+"resource": "hack_power",
+"variation": 0
+}
+},
+"filename": "window_hacker.tscn",
+"name": "hacker0",
+"position": Vector2(3450, 6150),
+"window": "hacker"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Damage": {
+"id": "eea7d7de8840",
+"outputs_id": Array[String](["23fbe63b5141", "98006b334a3a"]),
+"resource": "payload_damage",
+"variation": 0
+},
+"PanelContainer/MainContainer/HackPower": {
+"id": "fd76b156f8e0",
+"outputs_id": Array[String]([]),
+"resource": "hack_power",
+"variation": 0
+}
+},
+"filename": "window_payload_launcher.tscn",
+"name": "payload_launcher0",
+"position": Vector2(3850, 6150),
+"window": "payload_launcher"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/BreachDamage": {
+"id": "23fbe63b5141",
+"outputs_id": Array[String]([]),
+"resource": "payload_damage",
+"variation": 0
+},
+"PanelContainer/MainContainer/InfectionDamage": {
+"id": "9b66c427cfd0",
+"outputs_id": Array[String]([]),
+"resource": "infection_damage",
+"variation": 0
+},
+"PanelContainer/MainContainer/Result": {
+"id": "ca8e6774e226",
+"outputs_id": Array[String](["a5245f7b9ffd"]),
+"resource": "hack_experience",
+"variation": 0
+},
+"PanelContainer/MainContainer/Vulnerability": {
+"id": "1b634fdc4205",
+"outputs_id": Array[String]([]),
+"resource": "vulnerability",
+"variation": 0
+}
+},
+"filename": "window_breach_anonymous.tscn",
+"name": "breach_anonymous0",
+"position": Vector2(4250, 6150),
+"window": "breach_anonymous"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/BreachDamage": {
+"id": "98006b334a3a",
+"outputs_id": Array[String]([]),
+"resource": "payload_damage",
+"variation": 0
+},
+"PanelContainer/MainContainer/InfectionDamage": {
+"id": "4741e84193c6",
+"outputs_id": Array[String]([]),
+"resource": "infection_damage",
+"variation": 0
+},
+"PanelContainer/MainContainer/Result": {
+"id": "f94bcf2af23e",
+"outputs_id": Array[String](["1991cd748aec"]),
+"resource": "corporation_data",
+"variation": 0
+},
+"PanelContainer/MainContainer/Vulnerability": {
+"id": "88f350d48498",
+"outputs_id": Array[String]([]),
+"resource": "vulnerability",
+"variation": 0
+}
+},
+"filename": "window_breach_corps.tscn",
+"name": "breach_corps0",
+"position": Vector2(4600, 6150),
+"window": "breach_corps"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input": {
+"id": "1991cd748aec",
+"outputs_id": Array[String]([]),
+"resource": "corporation_data",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input2": {
+"id": "ddd6136d9ffb",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input3": {
+"id": "cc33bdaea5f4",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input4": {
+"id": "f57b9f4c9091",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input5": {
+"id": "c0d6d0a70935",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+}
+},
+"filename": "window_auto_collect.tscn",
+"name": "auto_collect2",
+"position": Vector2(4950, 6150),
+"window": "auto_collect"
+}]
+connectors={
+"1991cd748aec": {
+"custom_points": Array[Vector2]([])
+},
+"23fbe63b5141": {
+"custom_points": Array[Vector2]([])
+},
+"98006b334a3a": {
+"custom_points": Array[Vector2]([])
+},
+"a5245f7b9ffd": {
+"custom_points": Array[Vector2]([Vector2(3475, 6675)])
+},
+"fd76b156f8e0": {
+"custom_points": Array[Vector2]([])
+}
+}
+rect=Rect2(3400, 6050, 1950, 700)
+icon="hacker"
