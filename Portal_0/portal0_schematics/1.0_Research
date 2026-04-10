@@ -1,0 +1,104 @@
+[schematic]
+
+windows=[{
+"color": 2,
+"container_data": {},
+"custom_icon": "research",
+"custom_name": "[1.0] Research",
+"filename": "window_group.tscn",
+"name": "group2",
+"position": Vector2(4450, 4650),
+"size": Vector2(1250, 500),
+"window": "group"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "e57ba4f20e85",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "789be9420c7c",
+"outputs_id": Array[String]([]),
+"resource": "image",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "ec08897116b5",
+"outputs_id": Array[String](["be54e292f7f5"]),
+"resource": "image",
+"variation": 512
+}
+},
+"filename": "window_refiner.tscn",
+"name": "refiner0",
+"position": Vector2(4900, 4750),
+"window": "refiner"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "02d707435d37",
+"outputs_id": Array[String]([]),
+"resource": "boost_research",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "be54e292f7f5",
+"outputs_id": Array[String]([]),
+"resource": "image",
+"variation": 512
+},
+"PanelContainer/MainContainer/Points": {
+"id": "10863f270538",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/ResearchPower": {
+"id": "02b6a95ff8f2",
+"outputs_id": Array[String]([]),
+"resource": "research_power",
+"variation": 0
+}
+},
+"filename": "window_data_lab.tscn",
+"name": "data_lab0",
+"position": Vector2(5300, 4750),
+"window": "data_lab"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Download": {
+"id": "eb51fbcd1b25",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "b9002766c6b2",
+"outputs_id": Array[String](["789be9420c7c"]),
+"resource": "image",
+"variation": 0
+}
+},
+"filename": "window_download_image.tscn",
+"name": "download_image1",
+"position": Vector2(4500, 4750),
+"window": "download_image"
+}]
+connectors={
+"789be9420c7c": {
+"custom_points": Array[Vector2]([])
+},
+"be54e292f7f5": {
+"custom_points": Array[Vector2]([])
+},
+"e57ba4f20e85": {
+"custom_points": Array[Vector2]([])
+},
+"eb51fbcd1b25": {
+"custom_points": Array[Vector2]([])
+}
+}
+rect=Rect2(4450, 4650, 1250, 500)
+icon="research"

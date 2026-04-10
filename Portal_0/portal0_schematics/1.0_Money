@@ -1,0 +1,419 @@
+[schematic]
+
+windows=[{
+"color": 1,
+"container_data": {},
+"custom_icon": "globe",
+"custom_name": "[1.0] Money",
+"filename": "window_group.tscn",
+"name": "group1",
+"position": Vector2(4550, 3400),
+"size": Vector2(3400, 950),
+"window": "group"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Download": {
+"id": "4d3fd68abc44",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "97ffa75cdf02",
+"outputs_id": Array[String](["335898e0f274"]),
+"resource": "sound",
+"variation": 0
+}
+},
+"filename": "window_download_sound.tscn",
+"name": "download_sound0",
+"position": Vector2(4600, 3500),
+"window": "download_sound"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "df498be6556d",
+"outputs_id": Array[String](["2a6eea57d8ce"]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "b2dc13d128a2",
+"outputs_id": Array[String](["a8165178bdb0"]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "b69b5f09b115",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+}
+},
+"filename": "window_thread_manager.tscn",
+"name": "thread_manager0",
+"position": Vector2(5000, 3500),
+"ratio": 2.0,
+"ratio2": 1.0,
+"window": "thread_manager"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clean": {
+"id": "071e5014e270",
+"outputs_id": Array[String](["9672390e73f6"]),
+"resource": "sound",
+"variation": 1
+},
+"PanelContainer/MainContainer/Clock": {
+"id": "2a6eea57d8ce",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "335898e0f274",
+"outputs_id": Array[String]([]),
+"resource": "sound",
+"variation": 0
+},
+"PanelContainer/MainContainer/Infected": {
+"id": "750812f32891",
+"outputs_id": Array[String](["11f1f7887060"]),
+"resource": "sound",
+"variation": 257
+}
+},
+"filename": "window_virus_scanner.tscn",
+"name": "virus_scanner0",
+"position": Vector2(5350, 3500),
+"window": "virus_scanner"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "a8165178bdb0",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "11f1f7887060",
+"outputs_id": Array[String]([]),
+"resource": "sound",
+"variation": 257
+},
+"PanelContainer/MainContainer/Output": {
+"id": "32980d331ea3",
+"outputs_id": Array[String](["7608631c6576"]),
+"resource": "sound",
+"variation": 1
+},
+"PanelContainer/MainContainer/Virus": {
+"id": "9ccf78f32db5",
+"outputs_id": Array[String]([]),
+"resource": "virus",
+"variation": 0
+}
+},
+"filename": "window_quarantine.tscn",
+"name": "quarantine0",
+"position": Vector2(5350, 3900),
+"window": "quarantine"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "9672390e73f6",
+"outputs_id": Array[String]([]),
+"resource": "sound",
+"variation": 1
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "7608631c6576",
+"outputs_id": Array[String]([]),
+"resource": "sound",
+"variation": 1
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "ae4d63aeb13b",
+"outputs_id": Array[String]([]),
+"resource": "sound",
+"variation": 1
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "17556702f0e1",
+"outputs_id": Array[String]([]),
+"resource": "sound",
+"variation": 1
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "c0543ca4e633",
+"outputs_id": Array[String]([]),
+"resource": "sound",
+"variation": 1
+},
+"PanelContainer/MainContainer/Output": {
+"id": "f2ba50c63900",
+"outputs_id": Array[String](["adae22900d7e"]),
+"resource": "sound",
+"variation": 1
+}
+},
+"filename": "window_folder.tscn",
+"name": "folder0",
+"position": Vector2(5700, 3500),
+"window": "folder"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "6b38e5dec006",
+"outputs_id": Array[String](["1572a8484a25"]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "001fd1b040ef",
+"outputs_id": Array[String](["80d35f476d11"]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "d3d2eedb7c92",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+}
+},
+"filename": "window_thread_manager.tscn",
+"name": "thread_manager1",
+"position": Vector2(6100, 3500),
+"ratio": 2.0,
+"ratio2": 1.0,
+"window": "thread_manager"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "1572a8484a25",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Corrupted": {
+"id": "2a07e3b358c9",
+"outputs_id": Array[String](["0accd6a49d3c"]),
+"resource": "sound",
+"variation": 8195
+},
+"PanelContainer/MainContainer/File": {
+"id": "adae22900d7e",
+"outputs_id": Array[String]([]),
+"resource": "sound",
+"variation": 1
+},
+"PanelContainer/MainContainer/Validated": {
+"id": "edbc45e78f5f",
+"outputs_id": Array[String](["beb729c5fa6b"]),
+"resource": "sound",
+"variation": 3
+}
+},
+"filename": "window_verifier.tscn",
+"name": "verifier0",
+"position": Vector2(6450, 3500),
+"window": "verifier"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "80d35f476d11",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "0accd6a49d3c",
+"outputs_id": Array[String]([]),
+"resource": "sound",
+"variation": 8195
+},
+"PanelContainer/MainContainer/Output": {
+"id": "5788cd2e9db4",
+"outputs_id": Array[String](["6f044d632adb"]),
+"resource": "sound",
+"variation": 3
+}
+},
+"filename": "window_reconstructor.tscn",
+"name": "reconstructor0",
+"position": Vector2(6450, 3900),
+"window": "reconstructor"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "beb729c5fa6b",
+"outputs_id": Array[String]([]),
+"resource": "sound",
+"variation": 3
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "6f044d632adb",
+"outputs_id": Array[String]([]),
+"resource": "sound",
+"variation": 3
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "658f17ac1e02",
+"outputs_id": Array[String]([]),
+"resource": "sound",
+"variation": 3
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "22d0bc2f9b28",
+"outputs_id": Array[String]([]),
+"resource": "sound",
+"variation": 3
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "7d09f4e3e015",
+"outputs_id": Array[String]([]),
+"resource": "sound",
+"variation": 3
+},
+"PanelContainer/MainContainer/Output": {
+"id": "d0b2f817e9e7",
+"outputs_id": Array[String](["0fdcee5936f1"]),
+"resource": "sound",
+"variation": 3
+}
+},
+"filename": "window_folder.tscn",
+"name": "folder1",
+"position": Vector2(6800, 3500),
+"window": "folder"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/File": {
+"id": "0fdcee5936f1",
+"outputs_id": Array[String]([]),
+"resource": "sound",
+"variation": 3
+},
+"PanelContainer/MainContainer/Infections": {
+"id": "ba6f144cba72",
+"outputs_id": Array[String]([]),
+"resource": "infected_computer",
+"variation": 0
+},
+"PanelContainer/MainContainer/Result": {
+"id": "14e7c006c559",
+"outputs_id": Array[String](["2e9e5a6ebb6f"]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Upload": {
+"id": "c22c70527622",
+"outputs_id": Array[String]([]),
+"resource": "upload_speed",
+"variation": 0
+}
+},
+"filename": "window_upload.tscn",
+"name": "upload0",
+"position": Vector2(7200, 3500),
+"window": "upload"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input": {
+"id": "2e9e5a6ebb6f",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input2": {
+"id": "e6e15b08358d",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input3": {
+"id": "72440adc3276",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input4": {
+"id": "79a1f5f08812",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input5": {
+"id": "e0e59bd16e22",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+}
+},
+"filename": "window_auto_collect.tscn",
+"name": "auto_collect0",
+"position": Vector2(7550, 3500),
+"window": "auto_collect"
+}]
+connectors={
+"0accd6a49d3c": {
+"custom_points": Array[Vector2]([])
+},
+"0fdcee5936f1": {
+"custom_points": Array[Vector2]([])
+},
+"11f1f7887060": {
+"custom_points": Array[Vector2]([])
+},
+"1572a8484a25": {
+"custom_points": Array[Vector2]([])
+},
+"2a6eea57d8ce": {
+"custom_points": Array[Vector2]([])
+},
+"2e9e5a6ebb6f": {
+"custom_points": Array[Vector2]([])
+},
+"335898e0f274": {
+"custom_points": Array[Vector2]([])
+},
+"4d3fd68abc44": {
+"custom_points": Array[Vector2]([])
+},
+"6f044d632adb": {
+"custom_points": Array[Vector2]([])
+},
+"7608631c6576": {
+"custom_points": Array[Vector2]([])
+},
+"80d35f476d11": {
+"custom_points": Array[Vector2]([])
+},
+"9672390e73f6": {
+"custom_points": Array[Vector2]([])
+},
+"a8165178bdb0": {
+"custom_points": Array[Vector2]([])
+},
+"adae22900d7e": {
+"custom_points": Array[Vector2]([])
+},
+"b69b5f09b115": {
+"custom_points": Array[Vector2]([])
+},
+"beb729c5fa6b": {
+"custom_points": Array[Vector2]([])
+},
+"c22c70527622": {
+"custom_points": Array[Vector2]([])
+},
+"d3d2eedb7c92": {
+"custom_points": Array[Vector2]([])
+},
+"e6e15b08358d": {
+"custom_points": Array[Vector2]([])
+}
+}
+rect=Rect2(4550, 3400, 3400, 950)
+icon="globe"
