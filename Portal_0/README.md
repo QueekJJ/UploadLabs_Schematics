@@ -2,7 +2,9 @@
 > To the unaware, 'Portal' here is a prestige mechanic. I will try to avoid portaling as long as I could build something new, or in desperate need of an upgrade.
 
 Schematics will be posted based on what I consider major milestone. There might be times I sync my save to mobile to boost my token generation (tokens are needed for essentials to properly optimise builds)
-<br><br>
+
+<br>
+
 # Index
 - [Portal 0](#portal-0)
 - [Index](#index)
@@ -37,14 +39,12 @@ Schematics:
 - [1.0 Money](/Portal_0/portal0_schematics/Money/1.0_Money)
 - [1.0 Research](/Portal_0/portal0_schematics/Research/1.0_Research)
 
-Notes:
-- `Quarantine` and `Reconstructor` will only need half power for full efficiency.
-- At this stage, clock power is much higher than upload and download speeds. 
-- Research: `Image Downloader` and `Data Refiner` should be turned off when `Data Labs` have an excess amount of its respective file stored up in its system.
-
 ![Preview](/Portal_0/Portal0_imgs/Reconstructor_unlocked.png)
 
-[def]: #virus-scanner-+-quarantine
+> [!NOTE]
+> - `Quarantine` and `Reconstructor` will only need half power for full efficiency.
+> - At this stage, clock power is much higher than upload and download speeds. 
+> - Research: `Image Downloader` and `Data Refiner` should be turned off when `Data Labs` have an excess amount of its respective file stored up in its system.
 
 <br>
 
@@ -56,9 +56,9 @@ Schematics:
 ![Preview Money](/Portal_0/Portal0_imgs/Money/1.1%20Money.png)
 ![Preview Hack](/Portal_0/Portal0_imgs/Hack/1.0%20Hack.png)
 
-Notes:
-- Tested with and without `Compressor`, and both achieve the exact same efficiency. Maybe can conclude `Compressor` is worth if the total of the processing not including `Enhancer` uses at least half the clock speed of what the `Compressors` needs. Very uncertain, will need further testing with more components.
-- Accidentally left the `Text Downloader` in there that was used to help with my ratios, just delete that.
+> [!NOTE]
+> - Tested with and without `Compressor`, and both achieve the exact same efficiency. Maybe can conclude `Compressor` is worth if the total of the processing not including `Enhancer` uses at least half the clock speed of what the `Compressors` needs. Very uncertain, will need further testing with more components.
+> - Accidentally left the `Text Downloader` in there that was used to help with my ratios, just delete that.
 
 <br>
 
@@ -68,8 +68,8 @@ Schematics:
 
 ![Preview Research](/Portal_0/Portal0_imgs/Research/1.1%20Research.png)
 
-Notes:
-- _I forgot `Enhancer` also help during research process. Realised later when I unlocked `Double-Enhancements`._
+> [!NOTE]
+> _I forgot `Enhancer` also help during research process. Realised later when I unlocked `Double-Enhancements`._
 
 <br>
 
@@ -79,8 +79,8 @@ Schematics:
 
 ![Preview Hack](/Portal_0/Portal0_imgs/Hack/1.1%20Hack.png)
 
-Notes:
-- From experience, `Charged Attacks` + `Spread Infection` is the best combo. Will move forward using this strategy for a long while.
+> [!NOTE]
+> From experience, `Charged Attacks` + `Spread Infection` is the best combo. Will move forward using this strategy for a long while.
 
 <br>
 
@@ -92,8 +92,8 @@ Schematics:
 ![Preview Money](/Portal_0/Portal0_imgs/Money/1.2%20Money.png)
 ![Preview Research](/Portal_0/Portal0_imgs/Research/1.2%20Research.png)
 
-Notes: 
-- Accidentally left the `Image` and `Text Downloader` there that helped in doing my ratios, just delete those.
+> [!NOTE]
+> Accidentally left the `Image` and `Text Downloader` there that helped in doing my ratios, just delete those.
 
 <br>
 
@@ -103,21 +103,23 @@ Schematics:
 
 ![Preview Code](/Portal_0/Portal0_imgs/Code/1.0%20Code.png)
 
-Notes:
-- I will refrain from using optimasation points until I know it is a strict upgrade without messing with ratios. Will mention if I bought any during any step.
+> [!NOTE]
+> I will refrain from using optimasation points until I know it is a strict upgrade without messing with ratios. Will mention if I bought any during any step.
 
 <br>
 
 ## First Torrent
-Optimasations obtained: `Optimised Torrent Browsing`
+> [!IMPORTANT]
+> Optimasations obtained: `Optimised Torrent Browsing`
+
 Schematics:
 - [1.3 Money](/Portal_0/portal0_schematics/Money/1.3_Money)
 
 ![Preview Money](/Portal_0/Portal0_imgs/Money/1.3%20Money.png)
 
-Notes:
-- Chosen `IntergriMax Torrent` as the first torrent. This is because `Reconstructor` needs 2 files to make 1 validated file, which cause some files to be lost in this process. Having validated files instantly produced avoids this problem.
-- Using Torrenting reduces clock speeds load by a respectable amount.
+> [!NOTE]
+> - Chosen `IntergriMax Torrent` as the first torrent. This is because `Reconstructor` needs 2 files to make 1 validated file, which cause some files to be lost in this process. Having validated files instantly produced avoids this problem.
+> - Using Torrenting reduces clock speeds load by a respectable amount.
 
 <br>
 
