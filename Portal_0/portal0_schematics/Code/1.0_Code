@@ -1,0 +1,264 @@
+[schematic]
+
+windows=[{
+"color": 5,
+"container_data": {},
+"custom_icon": "code",
+"custom_name": "1.0 Code",
+"filename": "window_group.tscn",
+"name": "group1",
+"position": Vector2(4500, 6650),
+"size": Vector2(2000, 1150),
+"window": "group"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "45fcd4cbb95a",
+"outputs_id": Array[String]([]),
+"resource": "boost_code",
+"variation": 0
+},
+"PanelContainer/MainContainer/CodeSpeed": {
+"id": "494dc69e6f3b",
+"outputs_id": Array[String](["38e7efb31c4f", "212621387e62", "1e9f7352d840", "473b4d14bba1"]),
+"resource": "code_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Contribution": {
+"id": "088f2485d944",
+"outputs_id": Array[String]([]),
+"resource": "contribution",
+"variation": 0
+}
+},
+"filename": "window_coder.tscn",
+"name": "coder0",
+"position": Vector2(4550, 6750),
+"window": "coder"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/CodeSpeed": {
+"id": "212621387e62",
+"outputs_id": Array[String]([]),
+"resource": "code_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Result": {
+"id": "b9ccf312e73d",
+"outputs_id": Array[String](["0e1da71017d2"]),
+"resource": "int",
+"variation": 0
+}
+},
+"filename": "window_code_int.tscn",
+"name": "code_int0",
+"position": Vector2(4950, 7000),
+"window": "code_int"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/CodeSpeed": {
+"id": "473b4d14bba1",
+"outputs_id": Array[String]([]),
+"resource": "code_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Result": {
+"id": "3fded81624ff",
+"outputs_id": Array[String](["8e39f626d5f5"]),
+"resource": "float",
+"variation": 0
+}
+},
+"filename": "window_code_float.tscn",
+"name": "code_float1",
+"position": Vector2(4950, 7500),
+"window": "code_float"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/CodeSpeed": {
+"id": "1e9f7352d840",
+"outputs_id": Array[String]([]),
+"resource": "code_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Result": {
+"id": "925e65382ec1",
+"outputs_id": Array[String](["b1e1e42b9965"]),
+"resource": "float",
+"variation": 0
+}
+},
+"filename": "window_code_float.tscn",
+"name": "code_float0",
+"position": Vector2(4950, 7250),
+"window": "code_float"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Code": {
+"id": "921d894f9641",
+"outputs_id": Array[String](["92ca2519a00b", "0e82b1e3755d"]),
+"resource": "code_optimization",
+"variation": 0
+},
+"PanelContainer/MainContainer/Requirements/Bitflag": {
+"id": "b68438b711c0",
+"outputs_id": Array[String]([]),
+"resource": "bitflag",
+"variation": 0
+},
+"PanelContainer/MainContainer/Requirements/Vector": {
+"id": "9715392ce368",
+"outputs_id": Array[String]([]),
+"resource": "vector",
+"variation": 0
+}
+},
+"filename": "window_code_optimization.tscn",
+"name": "code_optimization0",
+"position": Vector2(5700, 6750),
+"window": "code_optimization"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input1": {
+"id": "6babf1d2a22b",
+"outputs_id": Array[String]([]),
+"resource": "bool",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input2": {
+"id": "0e1da71017d2",
+"outputs_id": Array[String]([]),
+"resource": "int",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "eba7ccc4efd0",
+"outputs_id": Array[String](["b68438b711c0"]),
+"resource": "bitflag",
+"variation": 0
+}
+},
+"filename": "window_variable_combiner.tscn",
+"name": "variable_combiner0",
+"position": Vector2(5300, 6900),
+"window": "variable_combiner"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input1": {
+"id": "b1e1e42b9965",
+"outputs_id": Array[String]([]),
+"resource": "float",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input2": {
+"id": "8e39f626d5f5",
+"outputs_id": Array[String]([]),
+"resource": "float",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "e8e6463824d1",
+"outputs_id": Array[String](["9715392ce368"]),
+"resource": "vector",
+"variation": 0
+}
+},
+"filename": "window_variable_combiner.tscn",
+"name": "variable_combiner1",
+"position": Vector2(5300, 7350),
+"window": "variable_combiner"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Code": {
+"id": "92ca2519a00b",
+"outputs_id": Array[String]([]),
+"resource": "code_optimization",
+"variation": 0
+},
+"PanelContainer/MainContainer/Contribution": {
+"id": "a738cc2b0edb",
+"outputs_id": Array[String](["088f2485d944"]),
+"resource": "contribution",
+"variation": 0
+}
+},
+"filename": "window_commit.tscn",
+"name": "commit0",
+"position": Vector2(6100, 6750),
+"window": "commit"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/CodeSpeed": {
+"id": "38e7efb31c4f",
+"outputs_id": Array[String]([]),
+"resource": "code_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Result": {
+"id": "316e6fe739cd",
+"outputs_id": Array[String](["6babf1d2a22b"]),
+"resource": "bool",
+"variation": 0
+}
+},
+"filename": "window_code_bool.tscn",
+"name": "code_bool0",
+"position": Vector2(4950, 6750),
+"window": "code_bool"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Code": {
+"id": "0e82b1e3755d",
+"outputs_id": Array[String]([]),
+"resource": "code_optimization",
+"variation": 0
+}
+},
+"filename": "window_build.tscn",
+"name": "build0",
+"position": Vector2(6100, 6950),
+"window": "build"
+}]
+connectors={
+"088f2485d944": {
+"custom_points": Array[Vector2]([Vector2(4525, 6750)])
+},
+"0e1da71017d2": {
+"custom_points": Array[Vector2]([])
+},
+"0e82b1e3755d": {
+"custom_points": Array[Vector2]([])
+},
+"1e9f7352d840": {
+"custom_points": Array[Vector2]([])
+},
+"212621387e62": {
+"custom_points": Array[Vector2]([])
+},
+"38e7efb31c4f": {
+"custom_points": Array[Vector2]([])
+},
+"473b4d14bba1": {
+"custom_points": Array[Vector2]([])
+},
+"6babf1d2a22b": {
+"custom_points": Array[Vector2]([])
+},
+"8e39f626d5f5": {
+"custom_points": Array[Vector2]([])
+},
+"92ca2519a00b": {
+"custom_points": Array[Vector2]([])
+},
+"9715392ce368": {
+"custom_points": Array[Vector2]([])
+},
+"b1e1e42b9965": {
+"custom_points": Array[Vector2]([])
+},
+"b68438b711c0": {
+"custom_points": Array[Vector2]([])
+}
+}
+rect=Rect2(4500, 6650, 2000, 1150)
+icon="code"

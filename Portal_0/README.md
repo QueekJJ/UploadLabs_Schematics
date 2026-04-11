@@ -11,7 +11,9 @@ Schematics will be posted based on what I consider major milestone. There might 
   - [Enhancers/Compressors + Hacking](#enhancerscompressors--hacking)
   - [Pre-analyser](#pre-analyser)
   - [Spread Infection](#spread-infection)
-  - [Double Enhancement/Compression (WIP)](#double-enhancementcompression-wip)
+  - [Double Enhancement/Compression](#double-enhancementcompression)
+  - [Coding + Optimasation](#coding--optimasation)
+  - [First Torrent](#first-torrent)
 
 <br>
 
@@ -82,7 +84,7 @@ Notes:
 
 <br>
 
-## Double Enhancement/Compression (WIP)
+## Double Enhancement/Compression
 Schematics:
 - [1.2 Money](/Portal_0/portal0_schematics/Money/1.2_Money)
 - [1.2 Research](/Portal_0/portal0_schematics/Research/1.2_Research)
@@ -92,6 +94,30 @@ Schematics:
 
 Notes: 
 - Accidentally left the `Image` and `Text Downloader` there that helped in doing my ratios, just delete those.
+
+<br>
+
+## Coding + Optimasation
+Schematics:
+- [1.0 Code](/Portal_0/portal0_schematics/Code/1.0_Code)
+
+![Preview Code](/Portal_0/Portal0_imgs/Code/1.0%20Code.png)
+
+Notes:
+- I will refrain from using optimasation points until I know it is a strict upgrade without messing with ratios. Will mention if I bought any during any step.
+
+<br>
+
+## First Torrent
+Optimasations obtained: `Optimised Torrent Browsing`
+Schematics:
+- [1.3 Money](/Portal_0/portal0_schematics/Money/1.3_Money)
+
+![Preview Money](/Portal_0/Portal0_imgs/Money/1.3%20Money.png)
+
+Notes:
+- Chosen `IntergriMax Torrent` as the first torrent. This is because `Reconstructor` needs 2 files to make 1 validated file, which cause some files to be lost in this process. Having validated files instantly produced avoids this problem.
+- Using Torrenting reduces clock speeds load by a respectable amount.
 
 <br>
 
