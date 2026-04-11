@@ -1,0 +1,289 @@
+[schematic]
+
+windows=[{
+"color": 2,
+"container_data": {},
+"custom_icon": "research",
+"custom_name": "1.1 Research",
+"filename": "window_group.tscn",
+"name": "group2",
+"position": Vector2(4500, 4700),
+"size": Vector2(1650, 1200),
+"window": "group"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "02d707435d37",
+"outputs_id": Array[String]([]),
+"resource": "boost_research",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "be54e292f7f5",
+"outputs_id": Array[String]([]),
+"resource": "image",
+"variation": 2560
+},
+"PanelContainer/MainContainer/Points": {
+"id": "10863f270538",
+"outputs_id": Array[String](["eaacd13ab039"]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/ResearchPower": {
+"id": "02b6a95ff8f2",
+"outputs_id": Array[String]([]),
+"resource": "research_power",
+"variation": 0
+}
+},
+"filename": "window_data_lab.tscn",
+"name": "data_lab0",
+"position": Vector2(5350, 4800),
+"window": "data_lab"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "fdfa0b8b4b2c",
+"outputs_id": Array[String]([]),
+"resource": "boost_research",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "595975782dfb",
+"outputs_id": Array[String]([]),
+"resource": "image",
+"variation": 2560
+},
+"PanelContainer/MainContainer/Points": {
+"id": "66b98c7c3129",
+"outputs_id": Array[String](["79f49596b696"]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/ResearchPower": {
+"id": "45cf2ab1df0e",
+"outputs_id": Array[String]([]),
+"resource": "research_power",
+"variation": 0
+}
+},
+"filename": "window_data_lab.tscn",
+"name": "data_lab1",
+"position": Vector2(5350, 5150),
+"window": "data_lab"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input": {
+"id": "eaacd13ab039",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input2": {
+"id": "79f49596b696",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input3": {
+"id": "95e20f8da6bf",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input4": {
+"id": "e7c397367d05",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input5": {
+"id": "74f580eea429",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+}
+},
+"filename": "window_auto_collect.tscn",
+"name": "auto_collect1",
+"position": Vector2(5750, 4800),
+"window": "auto_collect"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "24b5188c4837",
+"outputs_id": Array[String]([]),
+"resource": "boost_research",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "a881dfb1ee7a",
+"outputs_id": Array[String]([]),
+"resource": "image",
+"variation": 2560
+},
+"PanelContainer/MainContainer/Points": {
+"id": "0ea8a5bee862",
+"outputs_id": Array[String](["95e20f8da6bf"]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/ResearchPower": {
+"id": "fa290cdcecf2",
+"outputs_id": Array[String]([]),
+"resource": "research_power",
+"variation": 0
+}
+},
+"filename": "window_data_lab.tscn",
+"name": "data_lab2",
+"position": Vector2(5350, 5500),
+"window": "data_lab"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "8235b69771d8",
+"outputs_id": Array[String](["e57ba4f20e85"]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "8dac2b5b6ec8",
+"outputs_id": Array[String](["6d7ed1df86d1"]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "3ea8658fad69",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+}
+},
+"filename": "window_thread_manager.tscn",
+"name": "thread_manager7",
+"position": Vector2(4950, 4850),
+"ratio": 1.0,
+"ratio2": 2.0,
+"window": "thread_manager"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "e57ba4f20e85",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "789be9420c7c",
+"outputs_id": Array[String]([]),
+"resource": "image",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "ec08897116b5",
+"outputs_id": Array[String](["8898f1f3ba73"]),
+"resource": "image",
+"variation": 512
+}
+},
+"filename": "window_refiner.tscn",
+"name": "refiner0",
+"position": Vector2(4950, 5150),
+"window": "refiner"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "6d7ed1df86d1",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "8898f1f3ba73",
+"outputs_id": Array[String]([]),
+"resource": "image",
+"variation": 512
+},
+"PanelContainer/MainContainer/Output": {
+"id": "f76e280e5acd",
+"outputs_id": Array[String](["be54e292f7f5", "595975782dfb", "a881dfb1ee7a"]),
+"resource": "image",
+"variation": 2560
+}
+},
+"filename": "window_analyzer.tscn",
+"name": "analyzer0",
+"position": Vector2(4950, 5500),
+"window": "analyzer"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Download": {
+"id": "72695aa18631",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "1fd4297801c5",
+"outputs_id": Array[String](["789be9420c7c"]),
+"resource": "image",
+"variation": 0
+}
+},
+"filename": "window_download_image.tscn",
+"name": "download_image0",
+"position": Vector2(4550, 4850),
+"window": "download_image"
+}, {
+"color": 0,
+"container_data": {},
+"custom_icon": "",
+"custom_name": "Power Switch",
+"filename": "window_group.tscn",
+"name": "group3",
+"position": Vector2(4550, 4800),
+"size": Vector2(750, 1050),
+"window": "group"
+}]
+connectors={
+"3ea8658fad69": {
+"custom_points": Array[Vector2]([])
+},
+"595975782dfb": {
+"custom_points": Array[Vector2]([])
+},
+"6d7ed1df86d1": {
+"custom_points": Array[Vector2]([])
+},
+"72695aa18631": {
+"custom_points": Array[Vector2]([])
+},
+"789be9420c7c": {
+"custom_points": Array[Vector2]([])
+},
+"79f49596b696": {
+"custom_points": Array[Vector2]([])
+},
+"8898f1f3ba73": {
+"custom_points": Array[Vector2]([])
+},
+"95e20f8da6bf": {
+"custom_points": Array[Vector2]([])
+},
+"a881dfb1ee7a": {
+"custom_points": Array[Vector2]([])
+},
+"be54e292f7f5": {
+"custom_points": Array[Vector2]([])
+},
+"e57ba4f20e85": {
+"custom_points": Array[Vector2]([])
+},
+"eaacd13ab039": {
+"custom_points": Array[Vector2]([])
+}
+}
+rect=Rect2(4500, 4700, 1650, 1200)
+icon="research"
