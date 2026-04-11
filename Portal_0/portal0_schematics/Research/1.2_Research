@@ -7,7 +7,7 @@ windows=[{
 "custom_name": "1.2 Research",
 "filename": "window_group.tscn",
 "name": "group2",
-"position": Vector2(4500, 4400),
+"position": Vector2(4700, 4800),
 "size": Vector2(2500, 1200),
 "window": "group"
 }, {
@@ -39,7 +39,7 @@ windows=[{
 },
 "filename": "window_data_lab.tscn",
 "name": "data_lab1",
-"position": Vector2(6200, 4850),
+"position": Vector2(6400, 5250),
 "window": "data_lab"
 }, {
 "container_data": {
@@ -76,7 +76,7 @@ windows=[{
 },
 "filename": "window_auto_collect.tscn",
 "name": "auto_collect1",
-"position": Vector2(6600, 4500),
+"position": Vector2(6800, 4900),
 "window": "auto_collect"
 }, {
 "container_data": {
@@ -107,7 +107,7 @@ windows=[{
 },
 "filename": "window_data_lab.tscn",
 "name": "data_lab2",
-"position": Vector2(6200, 5200),
+"position": Vector2(6400, 5600),
 "window": "data_lab"
 }, {
 "container_data": {
@@ -132,7 +132,7 @@ windows=[{
 },
 "filename": "window_compressor.tscn",
 "name": "compressor1",
-"position": Vector2(5000, 4850),
+"position": Vector2(5200, 5250),
 "window": "compressor"
 }, {
 "container_data": {
@@ -157,7 +157,7 @@ windows=[{
 },
 "filename": "window_compressor.tscn",
 "name": "compressor2",
-"position": Vector2(5000, 5200),
+"position": Vector2(5200, 5600),
 "window": "compressor"
 }, {
 "container_data": {
@@ -182,7 +182,7 @@ windows=[{
 },
 "filename": "window_enhancer.tscn",
 "name": "enhancer2",
-"position": Vector2(5800, 4550),
+"position": Vector2(6000, 4950),
 "window": "enhancer"
 }, {
 "container_data": {
@@ -207,7 +207,7 @@ windows=[{
 },
 "filename": "window_enhancer.tscn",
 "name": "enhancer3",
-"position": Vector2(5800, 4900),
+"position": Vector2(6000, 5300),
 "window": "enhancer"
 }, {
 "container_data": {
@@ -226,7 +226,7 @@ windows=[{
 },
 "filename": "window_download_image.tscn",
 "name": "download_image0",
-"position": Vector2(5000, 4550),
+"position": Vector2(5200, 4950),
 "window": "download_image"
 }, {
 "container_data": {
@@ -251,7 +251,7 @@ windows=[{
 },
 "filename": "window_refiner.tscn",
 "name": "refiner0",
-"position": Vector2(5400, 4550),
+"position": Vector2(5600, 4950),
 "window": "refiner"
 }, {
 "container_data": {
@@ -276,7 +276,7 @@ windows=[{
 },
 "filename": "window_analyzer.tscn",
 "name": "analyzer0",
-"position": Vector2(5400, 4900),
+"position": Vector2(5600, 5300),
 "window": "analyzer"
 }, {
 "container_data": {
@@ -301,9 +301,9 @@ windows=[{
 },
 "filename": "window_thread_manager.tscn",
 "name": "thread_manager8",
-"position": Vector2(4600, 4550),
-"ratio": 6.0,
-"ratio2": 11.0,
+"position": Vector2(4800, 4950),
+"ratio": 9.0,
+"ratio2": 16.0,
 "window": "thread_manager"
 }, {
 "container_data": {
@@ -328,7 +328,7 @@ windows=[{
 },
 "filename": "window_thread_manager.tscn",
 "name": "thread_manager9",
-"position": Vector2(4600, 4850),
+"position": Vector2(4800, 5250),
 "ratio": 1.0,
 "ratio2": 8.0,
 "window": "thread_manager"
@@ -355,20 +355,10 @@ windows=[{
 },
 "filename": "window_thread_manager.tscn",
 "name": "thread_manager7",
-"position": Vector2(4600, 5150),
+"position": Vector2(4800, 5550),
 "ratio": 1.0,
 "ratio2": 1.0,
 "window": "thread_manager"
-}, {
-"color": 0,
-"container_data": {},
-"custom_icon": "",
-"custom_name": "Power Switch",
-"filename": "window_group.tscn",
-"name": "group3",
-"position": Vector2(4550, 4500),
-"size": Vector2(1600, 1050),
-"window": "group"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Boost": {
@@ -398,8 +388,18 @@ windows=[{
 },
 "filename": "window_data_lab.tscn",
 "name": "data_lab0",
-"position": Vector2(6200, 4500),
+"position": Vector2(6400, 4900),
 "window": "data_lab"
+}, {
+"color": 0,
+"container_data": {},
+"custom_icon": "",
+"custom_name": "Power Switch",
+"filename": "window_group.tscn",
+"name": "group3",
+"position": Vector2(4750, 4900),
+"size": Vector2(1600, 1050),
+"window": "group"
 }]
 connectors={
 "08ac1a9a6042": {
@@ -469,5 +469,5 @@ connectors={
 "custom_points": Array[Vector2]([])
 }
 }
-rect=Rect2(4500, 4400, 2500, 1200)
+rect=Rect2(4700, 4800, 2500, 1200)
 icon="research"
