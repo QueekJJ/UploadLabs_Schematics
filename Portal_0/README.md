@@ -150,4 +150,11 @@ Schematics:
 ![Preview Code](/Portal_0/Portal0_imgs/Code/1.1%20Code.png)
 
 ## Portaling
-This is where everything slows down by a lot, which is the perfect time to setup for portaling. I could play around with trojan now but decided it is not worth the effort until unlocking `Artificial Intelligence`. Buy `Portal` in the research tree, connect it with your `Data Labs` setup, funnel everything into it instead of a collector to start working on getting portaling points. Make sure all hacking are focused on `Breach Government`, and just buy any upgrades for research. Good time to also use up your `Time Rest` boost if any.
+This is where everything slows down by a lot, which is the perfect time to setup for portaling. I could play around with trojan now but decided it is not worth the effort until unlocking `Artificial Intelligence`. Buy `Portal` in the research tree, connect it with your `Data Labs` setup, funnel everything into it instead of a collector to start working on getting portaling points. Make sure all hacking are focused on `Breach Government`, and just buy any upgrades for research. Good time to also use up your `Time Rest` boost if any. 
+
+Try to wait for at least a total of 10-15 points. Anything more is great, this depends on how much are you willing to wait. Do note that the longer you wait, the longer it would take to get 1 more point. I would not recommend staying here for too long.
+
+I had left the game running in the background for a few hours and had got 13 points to spend. Here is how I delegated them:
+![Preview Portal0End](/Portal_0/Portal0_imgs/Portal0End.png)
+
+Personal opinion, can be very wrong: I would say `Improved Learning` is one of the best thing to maxed out first. `Sync Efficiency` also is pretty good early into a new portal run. Every other branch should have at least the first node unlocked. This will cost a total of 10 points so far. Any extra points can be used on maybe 1 or 2 `Breach Skill` and/or any component speed boost. Priority would be `Upload/Download` > `GPU` > `CPU` > `Research` >>> `Coding`. Coding might be the worst way to spend your skills (at least right now), but not bad enough to be completely neglected.
