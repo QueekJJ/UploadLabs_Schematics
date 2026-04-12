@@ -16,6 +16,7 @@ Schematics will be posted based on what I consider major milestone. There might 
   - [Double Enhancement/Compression](#double-enhancementcompression)
   - [Coding + Optimasation](#coding--optimasation)
   - [First Torrent](#first-torrent)
+  - [Charged Attacks](#charged-attacks)
 
 <br>
 
@@ -80,7 +81,7 @@ Schematics:
 ![Preview Hack](/Portal_0/Portal0_imgs/Hack/1.1%20Hack.png)
 
 > [!NOTE]
-> From experience, `Charged Attacks` + `Spread Infection` is the best combo. Will move forward using this strategy for a long while.
+> From experience, `Charged Attacks` + `Spread Infection` is the best combo. Will be using this strategy moving forward.
 
 <br>
 
@@ -110,7 +111,7 @@ Schematics:
 
 ## First Torrent
 > [!IMPORTANT]
-> Optimasations obtained: `Optimised Torrent Browsing`
+> Optimisations obtained: `Torrent Browsing`
 
 Schematics:
 - [1.3 Money](/Portal_0/portal0_schematics/Money/1.3_Money)
@@ -122,4 +123,16 @@ Schematics:
 > - Using Torrenting reduces clock speeds load by a respectable amount.
 
 <br>
+
+## Charged Attacks
+> [!IMPORTANT]
+> Perks purchased: Breach Skills: Increase breach skills limit by 1
+
+Schematics:
+- [1.2 Hack](/Portal_0/portal0_schematics/Hack/1.2_Hack)
+
+![Preview Hack](/Portal_0/Portal0_imgs/Hack/1.2%20Hack.png)
+
+> [!NOTES]
+> As mentioned earlier, we will be using `Charged Attack` + `Spread Infection` combo moving forward. This is generally how it would look like for a long time. If there are more skill limit, add more `Charged Attack` nodes between `Build Infection` and `Spread Infection`, it will continue to increase hacking damage.
 
