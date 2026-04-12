@@ -17,6 +17,8 @@ Schematics will be posted based on what I consider major milestone. There might 
   - [Coding + Optimasation](#coding--optimasation)
   - [First Torrent](#first-torrent)
   - [Charged Attacks](#charged-attacks)
+  - [Debugging](#debugging)
+  - [Portaling](#portaling)
 
 <br>
 
@@ -126,13 +128,26 @@ Schematics:
 
 ## Charged Attacks
 > [!IMPORTANT]
-> Perks purchased: Breach Skills: Increase breach skills limit by 1
+> Perks purchased: `Breach Skills` (increase breach skills limit by 1)
+> Can purchase this with tokens or portaling however much you want.
 
 Schematics:
 - [1.2 Hack](/Portal_0/portal0_schematics/Hack/1.2_Hack)
 
 ![Preview Hack](/Portal_0/Portal0_imgs/Hack/1.2%20Hack.png)
 
-> [!NOTES]
+> [!NOTE]
 > As mentioned earlier, we will be using `Charged Attack` + `Spread Infection` combo moving forward. This is generally how it would look like for a long time. If there are more skill limit, add more `Charged Attack` nodes between `Build Infection` and `Spread Infection`, it will continue to increase hacking damage.
 
+<br>
+
+## Debugging
+> [!IMPORTANT]
+> Optimisation obtained: `Debugging`
+Schematics:
+- [1.1 Code](/Portal_0/portal0_schematics/Code/1.1_Code)
+
+![Preview Code](/Portal_0/Portal0_imgs/Code/1.1%20Code.png)
+
+## Portaling
+This is where everything slows down by a lot, which is the perfect time to setup for portaling. I could play around with trojan now but decided it is not worth the effort until unlocking `Artificial Intelligence`. Buy `Portal` in the research tree, connect it with your `Data Labs` setup, funnel everything into it instead of a collector to start working on getting portaling points. Make sure all hacking are focused on `Breach Government`, and just buy any upgrades for research. Good time to also use up your `Time Rest` boost if any.
